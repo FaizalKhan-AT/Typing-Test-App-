@@ -1,0 +1,20 @@
+:root {
+  --bg-color: #09090b;
+  --primary-green: #2dba4e;
+  --text-color: #fff;
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: var(--bg-color);
+  color: var(--text-color);
+  user-select: none;
+}

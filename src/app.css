@@ -1,0 +1,59 @@
+.container-body {
+  height: 93vh;
+  font-family: monospace;
+}
+
+.content-card,
+.textarea-card {
+  width: 60%;
+}
+
+.textarea-card {
+  color: #757575;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  font-weight: 500;
+  height: 200px;
+  resize: none;
+}
+.timer {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid white;
+  font-size: 18px;
+}
+nav {
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+.metrics {
+  font-size: 30px;
+}
+
+.textarea-card::-webkit-scrollbar {
+  width: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card {
+  border: 2px solid #fff !important;
+  background-color: transparent !important;
+  border-radius: 8px;
+}
+input,
+select {
+  padding: 5px 10px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #fff !important;
+  border-radius: 8px;
+  width: 250px;
+  color: #fff;
+}
+option {
+  color: #000;
+}
